@@ -1,0 +1,79 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "IRANSans";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/eot/IRANSansWeb_Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_Bold.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_Bold.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "IRANSans";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/eot/IRANSansWeb_Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_Medium.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_Medium.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "IRANSans";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/eot/IRANSansWeb_Light.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_Light.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_Light.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "IRANSans";
+    font-style: normal;
+    font-weight: 200;
+    src: url("../fonts/eot/IRANSansWeb_UltraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb_UltraLight.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb_UltraLight.woff") format("woff"), url("../fonts/ttf/IRANSansWeb_UltraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "IRANSans";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb.woff") format("woff"), url("../fonts/ttf/IRANSansWeb.ttf") format("truetype");
+}
+lable.firstgroup {
+    font-family: iransans;
+}
+.main{
+    width: 1300px;
+    float: right;
+    margin-top: 30px;
+    background: #fbf8f8 !important;
+    margin-right: -30px;
+}
+input[type=search] {
+    -webkit-appearance: none;
+    background-image: none !important;
+    background: transparent !important;
+    border: none !important;
+    border-bottom: #9c9494 solid 1px !important;
+    border-radius: unset !important;
+    box-shadow: none !important;
+    width: 300px;
+    margin-top: -15px;
+}
+.firstgroup {
+    margin-left: 200px;
+}
+.search3 {
+    padding-left: 300px;
+    padding-top: 5px;
+    background: #fff;
+    height: 60px;
+    box-sizing: border-box;
+    width: auto;
+}
+.search3 {
+    border-radius: 10px;
+}
+table{
+    border-radius: 10px;
+}

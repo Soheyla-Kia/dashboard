@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="1.css">
+    <script>
+        window.onload = function () {
+
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                theme: "light2",
+                title:{
+                    text: "Simple Line Chart"
+                },
+                axisY:{
+                    includeZero: false
+                },
+                data: [{
+                    type: "line",
+                    dataPoints: [
+                        { y: 450 },
+                        { y: 414},
+                        { y: 520, indexLabel: "highest",markerColor: "red", markerType: "triangle" },
+                        { y: 460 },
+                        { y: 450 },
+                        { y: 500 },
+                        { y: 480 },
+                        { y: 480 },
+                        { y: 410 , indexLabel: "lowest",markerColor: "DarkSlateGrey", markerType: "cross" },
+                        { y: 500 },
+                        { y: 480 },
+                        { y: 510 }
+                    ]
+                }]
+            });
+            chart.render();
+
+        }
+    </script>
+</head>
+<body>
+
+<ul class="nav" style="margin-top: 105px; margin-left: 1280px; display: grid; position: absolute;">
+    <li class="nav-item">
+        <a href="../1/1.html" class="nav-link">
+            <img style="width: 40px;" src="images/surface1.png">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="../2/2.html" class="nav-link">
+            <img src="images/Path%20343.png">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="" class="nav-link">
+            <img src="images/surface-39.png">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="" class="nav-link">
+            <img src="images/surface-4.png">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="" class="nav-link">
+            <img src="images/surface-5.png">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="" class="nav-link">
+            <img src="images/Path%20342.png">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="" class="nav-link">
+            <img src="images/surface-8.png">
+        </a>
+    </li>
+</ul>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4" style="margin-left:50px; margin-bottom: -20px; margin-top: 20px; font-family: IRANSans">
+            سلام،منصور
+
+            <img src="images/b-10.png" style="width: 50px; margin-top: -10px;">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="main">
+        <div class="row" style=" padding: 50px;">
+            <div class="col-md-3 cel" style="border-radius: 10px;">
+                <img src="images/15.png" style="border-radius: 10px;">
+                <h6> کاربران مسدود شده</h6>
+                <p style="font-size: 18px;font-weight: bold;padding-left: 185px;">3</p>
+            </div>
+            <div class="col-md-3 cel" style="border-radius: 10px;">
+                <img src="images/16.png" style="border-radius: 10px;">
+                <h6>تعداد اپلیکیشن ها</h6>
+                <p style="font-size: 18px;font-weight: bold;padding-left: 170px;">12</p>
+            </div>
+            <div class="col-md-3 cel" style="border-radius: 10px;">
+                <img src="images/14%20(1).png" style="border-radius: 10px;">
+                <h6 style="margin-left: 25px;">کاربران آنلاین</h6>
+                <p style="font-size: 18px; font-weight: bold;   padding-left: 170px;">18</p>
+            </div>
+        <div class="col-md-3 cel" style="border-radius: 10px;">
+            <img src="images/14%20(2).png" style="border-radius: 10px;">
+            <h6 style="margin-left: 25px;"> تعداد کاربران</h6>
+            <p style=" font-size: 18px; font-weight: bold; padding-left: 160px;"> 150</p>
+        </div>
+        </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <h4 style="margin-left: 720px;width: inherit;color: #bc55b2;">وضعیت لاگین کاربران</h4>
+                    <p style="margin-left: 770px;width: inherit;color: #888;"> به صورت نموداری</p>
+
+                    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+                    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                </div>
+                <div class="col-md-4">
+                    <h4 style="margin-left:130px;color: #bc55b2;">وضعیت لاگین هفتگی</h4>
+                    <p style="margin-left: 185px; color: #888;"> به صورت نموداری</p>
+
+
+                    <div id="bar-vertical">
+                        <div class="vcell">
+                            <div style="background:#c43535; height:40%;">First</div>
+                        </div>
+                        <div class="vcell">
+                            <div style="background:#27a024; height:65%;">Second</div>
+                        </div>
+                        <div class="vcell">
+                            <div style="background:#2a26a5; height:98%;">Third</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    </div>
+</div>
+
+</body>
+</html>
